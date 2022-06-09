@@ -3,7 +3,7 @@ import { Container, Nav, Navbar} from 'react-bootstrap';
 
 const Heading = () => {
     return (
-        <div className='border border-white'>
+        <div className='p-3'>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <Container>
                     <Navbar.Brand href="#home" className='text-warning fw-bold'>MERN Developer</Navbar.Brand>

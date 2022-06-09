@@ -3,7 +3,7 @@ import React from 'react';
 const MyProjects = () => {
     return (
         <div className='my-5 container'>
-            <h3 className='text-gray-500'>My Projects</h3>
+            <h3 className='text-gray-500 mb-5'>My Projects</h3>
 
             <div className='grid sm:grid-cols-1 gap-3 lg:grid-cols-3 lg:gap-5  md:grid-cols-2  text-black justify-center'>
                 <div className="card w-96  shadow-xl">
@@ -15,7 +15,7 @@ const MyProjects = () => {
                         4. Online payment system.</p>
                         <a className='btn text-white border' href="https://colors-paint.web.app/" target="_blank">Visit The Site</a>
                     </div>
-                    <figure><img src="https://api.lorem.space/image/shoes?w=400&h=225" alt="Shoes" />
+                    <figure><img src="#" alt="Shoes" />
                     </figure>
 
                 </div>
@@ -28,7 +28,7 @@ const MyProjects = () => {
                         3. Login & signup system with firebase authentication.</p>
                         <a className='btn text-white border' href="https://dress-warehouse-assgn11.web.app/" target="_blank">Visit The Site</a>
                     </div>
-                    <figure><img src="https://api.lorem.space/image/shoes?w=400&h=225" alt="Shoes" /></figure>
+                    <figure><img src="#" alt="Shoes" /></figure>
                 </div>
 
                 <div class="card w-96 bg-base-100 shadow-xl">
@@ -40,7 +40,7 @@ const MyProjects = () => {
                         </p>
                         <a className='btn text-white border' href="https://photography-assgn10.web.app/" target="_blank">Visit The Site</a>
                     </div>
-                    <figure><img src="https://api.lorem.space/image/shoes?w=400&h=225" alt="Shoes" /></figure>
+                    <figure><img src="#" alt="Shoes" /></figure>
                 </div>
             </div>
 
