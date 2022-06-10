@@ -6,24 +6,24 @@ import project from '../../images/logo/project.png';
 const Stat = () => {
     return (
         <div className='container grid mx-auto my-16'>
-            <div class="stats stats-vertical lg:stats-horizontal shadow bg-gray-600 text-gray-300">
+            <div className="stats stats-vertical lg:stats-horizontal shadow bg-gray-600 text-gray-300">
 
-                <div class="stat text-center">
+                <div className="stat text-center">
                     <img className='w-10 mx-auto' src={expe} alt="" />
-                    <div class="stat-value">Experience</div>
-                    <div class="stat-desc text-xl">1 year working</div>
+                    <div className="stat-value">Experience</div>
+                    <div className="stat-desc text-xl">1 year working</div>
                 </div>
 
-                <div class="stat text-center">
+                <div className="stat text-center">
                     <img className='w-10 mx-auto' src={client} alt="" />
-                    <div class="stat-value">Clients</div>
-                    <div class="stat-desc text-xl">150+ world wide</div>
+                    <div className="stat-value">Clients</div>
+                    <div className="stat-desc text-xl">150+ world wide</div>
                 </div>
 
-                <div class="stat text-center">
+                <div className="stat text-center">
                     <img className='w-10 mx-auto' src={project} alt="" />
-                    <div class="stat-value">Projects</div>
-                    <div class="stat-desc text-xl">100+ completed</div>
+                    <div className="stat-value">Projects</div>
+                    <div className="stat-desc text-xl">100+ completed</div>
                 </div>
 
             </div>
