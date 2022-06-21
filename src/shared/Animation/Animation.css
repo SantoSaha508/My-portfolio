@@ -1,0 +1,32 @@
+.d1{
+    color: black;
+}
+.d1:hover {
+    background: linear-gradient(
+            to right, #f32170, #ff6b08,
+             #cf23cf, #eedd44);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+}
+
+.fst1{
+    background-color: white;
+    background: linear-gradient(
+            to right, #423339, #ff6b08,
+             #cf23cf, #8e863e);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    transition: transform 3s;
+}
+
+.fst1:hover {
+    transform: rotate(360deg);
+}
+
+.fst2{
+    transition: transform 2s ;
+}
+
+.fst2:hover {
+    transform: rotate(10deg);
+}

@@ -1,0 +1,8 @@
+.items{
+    color: rgb(249, 234, 234);
+    text-decoration: none;
+}
+
+.items:hover{
+    color: orange;
+}

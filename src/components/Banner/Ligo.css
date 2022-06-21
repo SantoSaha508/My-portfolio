@@ -1,0 +1,24 @@
+.facImg {
+    transition:  transform 1s ;
+}
+
+.facImg:hover{
+    
+    transform: rotate(360deg);
+}
+
+.gitImg {
+    transition: transform 2s ;
+}
+
+.gitImg:hover{
+    transform: rotate(-360deg);
+}
+
+.lidImg {
+    transition: transform 2s;
+}
+
+.lidImg:hover{
+    transform: rotate(360deg);
+}

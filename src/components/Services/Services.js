@@ -16,7 +16,7 @@ const Services = () => {
                 </div>
 
                 <div class="card">
-                    <div class="card-body bg-gray-700">
+                    <div class="card-body bg-gray-700 text-gray-300">
                         <h2 class="card-title">Web Development</h2>
                         <p>
                             1. Dynamic Website <br />2. Admin Panel. <br />
@@ -26,7 +26,7 @@ const Services = () => {
                 </div>
 
                 <div class="card ">
-                    <div class="card-body bg-gray-700">
+                    <div class="card-body bg-gray-700 text-gray-300">
                         <h2 class="card-title">Backend Development</h2>
                         <p>1. Server connectivity. <br />2. Database connectivity
                         </p>
